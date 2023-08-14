@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Test 1</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../img/icons8-survey-96.png"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <!-- Archivo CSS -->
+    <link rel="stylesheet" type="text/css" href="../styles/styles-test.css" />
+  </head>
+  <body>
+    <!-- Container principal -->
+    <div class="container">
+      <h3>Responde las siguientes preguntas:</h3>
+
+      <!-- Formulario 1 -->
+
+      <form method="post" action="../server/resultados.php" id="form1">
+        <fieldset class="container-aux" id="con">
+          <h5><legend>¿Cuál es el país más grande del mundo?</legend></h5>
+          <div class="row">
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form1_option1"
+                name="form1_option"
+                value="0"
+                required
+              />
+              <label for="form1_option1">Alemania</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form1_option2"
+                name="form1_option"
+                value="0"
+                required
+              />
+              <label for="form1_option2">Estados Unidos</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form1_option3"
+                name="form1_option"
+                value="1"
+                required
+              />
+              <label for="form1_option3">Rusia</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form1_option4"
+                name="form1_option"
+                value="0"
+                required
+              />
+              <label for="form1_option4">India</label>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <!-- Formulario 2 -->
+
+      <form method="post" action="../server/resultados.php" id="form2">
+        <fieldset class="container-aux" id="container">
+          <h5>
+            <legend>
+              ¿A quién se le atribuye la frase "Solo sé que no sé nada"?
+            </legend>
+          </h5>
+          <div class="row">
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form2_option1"
+                name="form2_option"
+                value="0"
+                required
+              />
+              <label for="form2_option1">Aristóteles</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form2_option2"
+                name="form2_option"
+                value="0"
+                required
+              />
+              <label for="form2_option2">Salomón</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form2_option3"
+                name="form2_option"
+                value="0"
+                required
+              />
+              <label for="form2_option3">Nietszche</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form2_option4"
+                name="form2_option"
+                value="1"
+                required
+              />
+              <label for="form2_option4">Sócrates</label>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <!-- Formulario 3  -->
+
+      <form method="post" action="../server/resultados.php" id="form3">
+        <fieldset class="container-aux" id="container">
+          <h5><legend>¿Cuándo terminó la II Guerra Mundial?</legend></h5>
+          <div class="row">
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form3_option1"
+                name="form3_option"
+                value="1"
+                required
+              />
+              <label for="form3_option1">1945</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form3_option2"
+                name="form3_option"
+                value="0"
+                required
+              />
+              <label for="form3_option2">1947</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form3_option3"
+                name="form3_option"
+                value="0"
+                required
+              />
+              <label for="form3_option3">1943</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form3_option4"
+                name="form3_option"
+                value="0"
+                required
+              />
+              <label for="form3_option4">1915</label>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <!-- Formulario 4 -->
+
+      <form method="post" action="../../server/resultados.php" id="form4">
+        <fieldset class="container-aux" id="container">
+          <h5><legend>¿Cuál es el libro sagrado de los musulmanes?</legend></h5>
+          <div class="row">
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form4_option1"
+                name="form4_option"
+                value="1"
+                required
+              />
+              <label for="form4_option1"> El Corán</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form4_option2"
+                name="form4_option"
+                value="0"
+                required
+              />
+              <label for="form4_option2">El Talmud</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form4_option3"
+                name="form4_option"
+                value="0"
+                required
+              />
+              <label for="form4_option3">La Biblia</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="form4_option4"
+                name="form4_option"
+                value="0"
+                required
+              />
+              <label for="form4_option4">La Torá</label>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <!-- Formulario combinado, boton de submit para todos los formularios -->
+
+      <form id="combinedForm">
+        <button type="button" class="fancy m-5" id="submitForms">
+          Terminar
+        </button>
+      </form>
+      <!-- Temporizador -->
+      <p id="tiempo" class="tiempo"></p>
+    </div>
+    <!-- Archivo JS -->
+    <script src="../js/data.js"></script>
+  </body>
+</html>

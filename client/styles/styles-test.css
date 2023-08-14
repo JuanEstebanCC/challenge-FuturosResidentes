@@ -1,9 +1,9 @@
-/* Imports */ 
+/* Imports */
 
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 
-/* General */ 
+/* General */
 html {
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 400;
@@ -35,6 +35,16 @@ body {
     box-shadow: 15px 15px black;
 }
 
+/* Container Auxiliar */
+
+.container-aux {
+    border: solid 3px black;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+    box-shadow: 3px 3px black;
+    transition: all 0.4s ease;
+}
+
+
 /* Formulario */
 
 
@@ -50,9 +60,14 @@ legend {
     font-size: 18px;
 }
 
-/* Radio Buttons */
 
 
+
+
+/* Temporizador */
+.tiempo {
+    font-size: medium;
+}
 
 /* Botones */
 
@@ -61,7 +76,8 @@ legend {
     border: 2px solid #000;
     border-radius: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: black;
+    /* Updated color */
     cursor: pointer;
     display: inline-block;
     font-weight: 700;
@@ -105,40 +121,8 @@ legend {
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
-}
-
-.fancy .top-key {
-    height: 2px;
-    width: 1.5625rem;
-    top: -2px;
-    left: 0.625rem;
-    position: absolute;
-    background: white;
-    -webkit-transition: width 0.5s ease-out, left 0.3s ease-out;
-    transition: width 0.5s ease-out, left 0.3s ease-out;
-}
-
-.fancy .bottom-key-1 {
-    height: 2px;
-    width: 1.5625rem;
-    right: 1.875rem;
-    bottom: -2px;
-    position: absolute;
-    background: white;
-    -webkit-transition: width 0.5s ease-out, right 0.3s ease-out;
-    transition: width 0.5s ease-out, right 0.3s ease-out;
-}
-
-.fancy .bottom-key-2 {
-    height: 2px;
-    width: 0.625rem;
-    right: 0.625rem;
-    bottom: -2px;
-    position: absolute;
-    background: white;
-    -webkit-transition: width 0.5s ease-out, right 0.3s ease-out;
-    transition: width 0.5s ease-out, right 0.3s ease-out;
+    color: black !important;
+    /* Updated color */
 }
 
 .fancy:hover {
@@ -154,15 +138,4 @@ legend {
 .fancy:hover a {
     color: white;
     padding-left: 1.5em;
-}
-
-.fancy:hover .top-key {
-    left: -2px;
-    width: 0px;
-}
-
-.fancy:hover .bottom-key-1,
-.fancy:hover .bottom-key-2 {
-    right: 0;
-    width: 0;
 }

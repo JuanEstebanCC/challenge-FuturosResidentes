@@ -1,9 +1,9 @@
-/* Imports */ 
+/* Imports */
 
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 
-/* General */ 
+/* General */
 
 html {
     font-family: "Noto Sans JP", sans-serif;
@@ -27,7 +27,8 @@ h3 {
     margin-bottom: 1em;
 
 }
-/* Textos */ 
+
+/* Textos */
 
 .git {
     margin-top: 15px;
@@ -43,11 +44,9 @@ h3 {
 
 }
 
-.text-home {
-    margin-bottom: 5em;
-}
 
-/* Contenedor principal */ 
+
+/* Contenedor principal */
 
 .container {
     flex-direction: column;
@@ -69,11 +68,9 @@ h3 {
 
 
 
-/* Botones */
 
-.buttons {
-    padding-bottom: 2em;
-}
+
+
 
 .fancy {
     background-color: transparent;
@@ -185,5 +182,3 @@ h3 {
     right: 0;
     width: 0;
 }
-
-

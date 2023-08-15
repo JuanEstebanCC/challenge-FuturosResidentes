@@ -9,7 +9,8 @@
 
 ### Deploy
 
-> _Github Pages no permite el deploy de una página web dinamica (con backend), entonces solo se subió la parte del Frontend (estática) a la plataforma._
+- Github Pages no permite el deploy de una página web dinamica (con backend), entonces solo se subió la parte del Frontend (estática) a la plataforma.
+- Para que funcione con el Backend (PHP) y poder procesar datos de las respuestas porfavor correr en servidor local.
 
 [bootstrap]: https://getbootstrap.com/
 [SweetAlert]: https://sweetalert.js.org/

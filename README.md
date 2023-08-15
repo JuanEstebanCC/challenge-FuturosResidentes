@@ -7,6 +7,10 @@
 - [Bootstrap] - Utilizado para el grid y efectos visuales.
 - [SweetAlert] - Alertas mas interactivas y customizables.
 
+### GitHub Pages 
+
+https://juanestebancc.github.io/challenge-FuturosResidentes/client/html/index.html
+
 ### Deploy
 
 - Github Pages no permite el deploy de una página web dinamica (con backend), entonces solo se subió la parte del Frontend (estática) a la plataforma.

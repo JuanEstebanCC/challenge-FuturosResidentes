@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
               icon: 'success',
             })
             .then((value) => {
-              location.href = 'index.html';
+              location.href = 'index1.html';
             });
         } else {
           swal
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
               icon: 'error',
             })
             .then((value) => {
-              location.href = 'index.html';
+              location.href = 'index1.html';
             });
         }
 
@@ -73,7 +73,7 @@ function fireSweetAlert() {
       icon: 'error',
     })
     .then((value) => {
-      location.href = 'index.html';
+      location.href = 'index1.html';
     });
 }
 
